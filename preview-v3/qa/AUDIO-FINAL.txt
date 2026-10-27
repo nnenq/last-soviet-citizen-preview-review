@@ -1,0 +1,3 @@
+AUDIO SOURCE integrated -13.581263449837538 sample peak -2.673884150706583
+[aist#1:0/pcm_f32le @ 000001ca17a8a340] Guessed Channel Layout: stereo
+RENDER COMPLETE .\preview-v3.mp4

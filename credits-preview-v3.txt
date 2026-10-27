@@ -1,0 +1,28 @@
+THE LAST SOVIET CITIZEN — corrected 23-second preview v3
+
+Original Almost Okay canonical cream face, black hair and flight-suit rig, drawn in Cairo. Pose and gaze adjusted without substituting a new character. No AI-generated images, clips, archival launch footage or voiceover.
+
+Original procedural soundtrack: sparse tonal atmosphere, low-passed cabin air (420Hz cutoff), a three-note countdown crescendo, fracture transient, countdown beeps, support-release transient, saturated low-mid engine body. No third-party samples or recordings. This is an editorial soundtrack, not sound transmitted through vacuum. Smooth gain automation separates quiet atmosphere and loud launch; no dynamic loudnorm compression and no constant -14LUFS bed across the film. There is no perceptual audition on a physical phone claimed.
+
+Historical political geometry: July1991 CIA map801727(B01272)7-91, LOC2005626536, retained scan and trace in assets/.
+https://www.loc.gov/item/2005626536/
+Source scan: https://commons.wikimedia.org/wiki/File:Republics_of_the_Soviet_Union._LOC_2005626536.jpg
+Approximately georeferenced with printed city control points, inverted spherical conic fit, then projected orthographically on the sphere. RMS control error around10 source pixels; east-coast accuracy not independently survey-certified. Projection report is retained. The cut/translated/shrunk republic footprints are an exploded graphic metaphor, not a map of where borders moved. City lights are schematic illustration. Other continent polygons are dissolved into dim land silhouettes; no modern internal country boundaries supply the Soviet overlay.
+
+Launch date18May1991, followed by docking two days later:
+https://www.esa.int/Science_Exploration/Space_Science/18_May
+Krikalev return and planned October crew change:
+https://www.nasa.gov/history/SP-4225/documentation/mission-summaries/sts60/biographies/biographies.htm
+This NASA biography's19May launch date conflicts with ESA's dated18May account;18May is used and the discrepancy is recorded rather than hidden. Five months is the rounded original plan, not the eventual311-day duration.
+
+Soyuz four-arm support principle, outward opening under counterweights:
+https://www.esa.int/ESA_Multimedia/Images/2009/06/Soyuz_launch_pad_primary_support_arms
+https://www.esa.int/Enabling_Support/Space_Transportation/Building_the_Soyuz_launch_facility_at_Europe_s_Spaceport_part_two
+These reference photographs show later Kourou infrastructure. The animation adapts the Soyuz-family arm/trench principle and is not an exact1991Baikonur engineering reconstruction. The launch countdown and arm motions are time-compressed. Mir/Soyuz/module silhouettes and docking timing are simplified; no precise engineering simulation is claimed.
+
+Neutral body posture reference retained from v2:
+https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20150020939.pdf
+
+Andika Bold and JetBrains Mono fonts: SIL Open Font License1.1. Original license files in assets/.
+
+Film and own character are publicly shared for review; no blanket reuse license is granted for the own artwork. The US-agency map and third-party fonts retain their source rights/licensing terms. Full film has not been produced or reviewed by this preview package.

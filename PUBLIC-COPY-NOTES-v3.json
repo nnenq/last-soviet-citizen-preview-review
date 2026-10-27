@@ -1,0 +1,6 @@
+{
+  "video_sha256": "45a9efdf8769478f2f608c8117786f127d898d194142e9ab8107e8c126728d34",
+  "changes": "Local personal project paths removed from text/JSON reports. Source code and video content otherwise unchanged. No credentials included.",
+  "local_QA_issues": [],
+  "mutation_test_count": 47
+}

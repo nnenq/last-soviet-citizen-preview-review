@@ -1,0 +1,16 @@
+COMMAND ffmpeg -y -hide_banner -loglevel info -f rawvideo -pixel_format bgr0 -video_size 1920x1080 -framerate 30 -i pipe:0 -an -c:v libx264 -crf 16 -preset slow -pix_fmt yuv420p -profile:v high -tune animation .\preview-v3\picture.mp4
+RENDER 0/690
+RENDER 60/690
+RENDER 120/690
+RENDER 180/690
+RENDER 240/690
+RENDER 300/690
+RENDER 360/690
+RENDER 420/690
+RENDER 480/690
+RENDER 540/690
+RENDER 600/690
+RENDER 660/690
+AUDIO SOURCE integrated -14.142767293935272 sample peak -2.9575700111153482
+[aist#1:0/pcm_f32le @ 000002bb86450e00] Guessed Channel Layout: stereo
+RENDER COMPLETE .\preview-v3.mp4

@@ -1,0 +1,1 @@
+{"bed_lowpass_Hz":420,"engine_band_Hz":[35,1800],"global_gain_dB":1.3011894805978645,"scene_automation_targets":[-18.15,-18.15,-18.15,-18.15,-18.15,-18.15,-18.15,-18.15,-18.15,-18.15,-18.15,-9.75,-9.25,-9.3,-9.1,-9.2,-18.15,-18.15,-18.15,-18.15,-18.15,-18.15,-18.15],"normalization":"separate quiet and launch targets with smooth gain automation; no dynamic loudnorm"}
