@@ -1,0 +1,262 @@
+[
+  {
+    "frame": 0,
+    "time": 0.0,
+    "path": "./preview-v2/qa/frames/frame-0000-000.00s.png"
+  },
+  {
+    "frame": 15,
+    "time": 0.5,
+    "path": "./preview-v2/qa/frames/frame-0015-000.50s.png"
+  },
+  {
+    "frame": 30,
+    "time": 1.0,
+    "path": "./preview-v2/qa/frames/frame-0030-001.00s.png"
+  },
+  {
+    "frame": 45,
+    "time": 1.5,
+    "path": "./preview-v2/qa/frames/frame-0045-001.50s.png"
+  },
+  {
+    "frame": 60,
+    "time": 2.0,
+    "path": "./preview-v2/qa/frames/frame-0060-002.00s.png"
+  },
+  {
+    "frame": 75,
+    "time": 2.5,
+    "path": "./preview-v2/qa/frames/frame-0075-002.50s.png"
+  },
+  {
+    "frame": 90,
+    "time": 3.0,
+    "path": "./preview-v2/qa/frames/frame-0090-003.00s.png"
+  },
+  {
+    "frame": 105,
+    "time": 3.5,
+    "path": "./preview-v2/qa/frames/frame-0105-003.50s.png"
+  },
+  {
+    "frame": 119,
+    "time": 3.966666666666667,
+    "path": "./preview-v2/qa/frames/frame-0119-003.97s.png"
+  },
+  {
+    "frame": 120,
+    "time": 4.0,
+    "path": "./preview-v2/qa/frames/frame-0120-004.00s.png"
+  },
+  {
+    "frame": 135,
+    "time": 4.5,
+    "path": "./preview-v2/qa/frames/frame-0135-004.50s.png"
+  },
+  {
+    "frame": 150,
+    "time": 5.0,
+    "path": "./preview-v2/qa/frames/frame-0150-005.00s.png"
+  },
+  {
+    "frame": 165,
+    "time": 5.5,
+    "path": "./preview-v2/qa/frames/frame-0165-005.50s.png"
+  },
+  {
+    "frame": 180,
+    "time": 6.0,
+    "path": "./preview-v2/qa/frames/frame-0180-006.00s.png"
+  },
+  {
+    "frame": 195,
+    "time": 6.5,
+    "path": "./preview-v2/qa/frames/frame-0195-006.50s.png"
+  },
+  {
+    "frame": 210,
+    "time": 7.0,
+    "path": "./preview-v2/qa/frames/frame-0210-007.00s.png"
+  },
+  {
+    "frame": 225,
+    "time": 7.5,
+    "path": "./preview-v2/qa/frames/frame-0225-007.50s.png"
+  },
+  {
+    "frame": 239,
+    "time": 7.966666666666667,
+    "path": "./preview-v2/qa/frames/frame-0239-007.97s.png"
+  },
+  {
+    "frame": 240,
+    "time": 8.0,
+    "path": "./preview-v2/qa/frames/frame-0240-008.00s.png"
+  },
+  {
+    "frame": 255,
+    "time": 8.5,
+    "path": "./preview-v2/qa/frames/frame-0255-008.50s.png"
+  },
+  {
+    "frame": 270,
+    "time": 9.0,
+    "path": "./preview-v2/qa/frames/frame-0270-009.00s.png"
+  },
+  {
+    "frame": 285,
+    "time": 9.5,
+    "path": "./preview-v2/qa/frames/frame-0285-009.50s.png"
+  },
+  {
+    "frame": 300,
+    "time": 10.0,
+    "path": "./preview-v2/qa/frames/frame-0300-010.00s.png"
+  },
+  {
+    "frame": 315,
+    "time": 10.5,
+    "path": "./preview-v2/qa/frames/frame-0315-010.50s.png"
+  },
+  {
+    "frame": 329,
+    "time": 10.966666666666667,
+    "path": "./preview-v2/qa/frames/frame-0329-010.97s.png"
+  },
+  {
+    "frame": 330,
+    "time": 11.0,
+    "path": "./preview-v2/qa/frames/frame-0330-011.00s.png"
+  },
+  {
+    "frame": 345,
+    "time": 11.5,
+    "path": "./preview-v2/qa/frames/frame-0345-011.50s.png"
+  },
+  {
+    "frame": 360,
+    "time": 12.0,
+    "path": "./preview-v2/qa/frames/frame-0360-012.00s.png"
+  },
+  {
+    "frame": 375,
+    "time": 12.5,
+    "path": "./preview-v2/qa/frames/frame-0375-012.50s.png"
+  },
+  {
+    "frame": 390,
+    "time": 13.0,
+    "path": "./preview-v2/qa/frames/frame-0390-013.00s.png"
+  },
+  {
+    "frame": 404,
+    "time": 13.466666666666667,
+    "path": "./preview-v2/qa/frames/frame-0404-013.47s.png"
+  },
+  {
+    "frame": 405,
+    "time": 13.5,
+    "path": "./preview-v2/qa/frames/frame-0405-013.50s.png"
+  },
+  {
+    "frame": 420,
+    "time": 14.0,
+    "path": "./preview-v2/qa/frames/frame-0420-014.00s.png"
+  },
+  {
+    "frame": 435,
+    "time": 14.5,
+    "path": "./preview-v2/qa/frames/frame-0435-014.50s.png"
+  },
+  {
+    "frame": 450,
+    "time": 15.0,
+    "path": "./preview-v2/qa/frames/frame-0450-015.00s.png"
+  },
+  {
+    "frame": 465,
+    "time": 15.5,
+    "path": "./preview-v2/qa/frames/frame-0465-015.50s.png"
+  },
+  {
+    "frame": 479,
+    "time": 15.966666666666667,
+    "path": "./preview-v2/qa/frames/frame-0479-015.97s.png"
+  },
+  {
+    "frame": 480,
+    "time": 16.0,
+    "path": "./preview-v2/qa/frames/frame-0480-016.00s.png"
+  },
+  {
+    "frame": 495,
+    "time": 16.5,
+    "path": "./preview-v2/qa/frames/frame-0495-016.50s.png"
+  },
+  {
+    "frame": 510,
+    "time": 17.0,
+    "path": "./preview-v2/qa/frames/frame-0510-017.00s.png"
+  },
+  {
+    "frame": 525,
+    "time": 17.5,
+    "path": "./preview-v2/qa/frames/frame-0525-017.50s.png"
+  },
+  {
+    "frame": 540,
+    "time": 18.0,
+    "path": "./preview-v2/qa/frames/frame-0540-018.00s.png"
+  },
+  {
+    "frame": 555,
+    "time": 18.5,
+    "path": "./preview-v2/qa/frames/frame-0555-018.50s.png"
+  },
+  {
+    "frame": 570,
+    "time": 19.0,
+    "path": "./preview-v2/qa/frames/frame-0570-019.00s.png"
+  },
+  {
+    "frame": 585,
+    "time": 19.5,
+    "path": "./preview-v2/qa/frames/frame-0585-019.50s.png"
+  },
+  {
+    "frame": 600,
+    "time": 20.0,
+    "path": "./preview-v2/qa/frames/frame-0600-020.00s.png"
+  },
+  {
+    "frame": 615,
+    "time": 20.5,
+    "path": "./preview-v2/qa/frames/frame-0615-020.50s.png"
+  },
+  {
+    "frame": 630,
+    "time": 21.0,
+    "path": "./preview-v2/qa/frames/frame-0630-021.00s.png"
+  },
+  {
+    "frame": 645,
+    "time": 21.5,
+    "path": "./preview-v2/qa/frames/frame-0645-021.50s.png"
+  },
+  {
+    "frame": 660,
+    "time": 22.0,
+    "path": "./preview-v2/qa/frames/frame-0660-022.00s.png"
+  },
+  {
+    "frame": 675,
+    "time": 22.5,
+    "path": "./preview-v2/qa/frames/frame-0675-022.50s.png"
+  },
+  {
+    "frame": 689,
+    "time": 22.966666666666665,
+    "path": "./preview-v2/qa/frames/frame-0689-022.97s.png"
+  }
+]

@@ -1,0 +1,135 @@
+{
+  "frame": 150,
+  "time": 5.0,
+  "shot": 2,
+  "bounds": [
+    {
+      "role": "head",
+      "name": "hero",
+      "box": [
+        770.5871350666309,
+        451.2616363401405,
+        923.1009782690722,
+        622.2764473929375
+      ]
+    },
+    {
+      "role": "text",
+      "name": "He came back to another.",
+      "box": [
+        616.5,
+        107.0,
+        1303.5,
+        153.0
+      ],
+      "text_role": "caption",
+      "opacity": 1,
+      "font_size": 56,
+      "art_pixels_padded": 0
+    }
+  ],
+  "scales": [
+    {
+      "name": "hero",
+      "value": 370,
+      "expected": 370
+    },
+    {
+      "name": "window",
+      "value": 63.0,
+      "expected": 63
+    },
+    {
+      "name": "module",
+      "value": 886,
+      "expected": 886
+    }
+  ],
+  "reserved_zone_art_pixels": 0,
+  "caption_id": 1,
+  "premature_internal_red_pixels": 0,
+  "body": {
+    "root": [
+      932.5,
+      738.7
+    ],
+    "angle_deg": -11.64568027201927,
+    "hand": [
+      1004.0,
+      471.0
+    ],
+    "rail": [
+      1004,
+      471
+    ],
+    "rail_brackets": 2,
+    "hip_flex_deg": 30,
+    "knee_flex_deg": 45,
+    "free_elbow_flex_deg": 45,
+    "free_hand_local_y": -232.5678677462842,
+    "root_accel_y": 0,
+    "speed": 2.817800560721074,
+    "rotation_speed": 0.385,
+    "leg_joints": [
+      [
+        [
+          -18,
+          -126
+        ],
+        [
+          9.17804420598247,
+          -78.18416671083037
+        ],
+        [
+          -5.945735334688488,
+          -23.227171774742544
+        ]
+      ],
+      [
+        [
+          18,
+          -126
+        ],
+        [
+          45.124418024198945,
+          -78.15372588331971
+        ],
+        [
+          29.939032518369416,
+          -23.213721632870815
+        ]
+      ]
+    ],
+    "free_arm_joints": [
+      [
+        -25,
+        -236
+      ],
+      [
+        -75.07357071778816,
+        -213.2483513658753
+      ],
+      [
+        -126.56877716292352,
+        -232.5678677462842
+      ]
+    ]
+  },
+  "free_props": [
+    {
+      "position": [
+        650,
+        420
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "acceleration": [
+        0,
+        0
+      ],
+      "rotation_speed": 10
+    }
+  ]
+}

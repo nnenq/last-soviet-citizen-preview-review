@@ -1,0 +1,1346 @@
+[
+  {
+    "name": "subtitle_on_head",
+    "expected": "text_head",
+    "caught": [
+      "subtitle_art",
+      "subtitle_zone",
+      "text_head"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/subtitle_on_head.png",
+    "issues": [
+      {
+        "frame": 150,
+        "time": 5.0,
+        "shot": 2,
+        "rule": "subtitle_zone",
+        "detail": "He came back to another."
+      },
+      {
+        "frame": 150,
+        "time": 5.0,
+        "shot": 2,
+        "rule": "subtitle_art",
+        "detail": "He came back to another.: 43648 picture pixels in padded box"
+      },
+      {
+        "frame": 150,
+        "time": 5.0,
+        "shot": 2,
+        "rule": "text_head",
+        "detail": "He came back to another."
+      }
+    ]
+  },
+  {
+    "name": "overlapping_text",
+    "expected": "text_text",
+    "caught": [
+      "text_text"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/overlapping_text.png",
+    "issues": [
+      {
+        "frame": 60,
+        "time": 2.0,
+        "shot": 1,
+        "rule": "text_text",
+        "detail": "He left Earth from one country."
+      }
+    ]
+  },
+  {
+    "name": "cropped_head",
+    "expected": "head_crop",
+    "caught": [
+      "head_crop"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/cropped_head.png",
+    "issues": [
+      {
+        "frame": 150,
+        "time": 5.0,
+        "shot": 2,
+        "rule": "head_crop",
+        "detail": "mutated head"
+      }
+    ]
+  },
+  {
+    "name": "text_outside_frame",
+    "expected": "text_margin",
+    "caught": [
+      "subtitle_zone",
+      "text_margin"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/text_outside_frame.png",
+    "issues": [
+      {
+        "frame": 60,
+        "time": 2.0,
+        "shot": 1,
+        "rule": "text_margin",
+        "detail": "OUT"
+      },
+      {
+        "frame": 60,
+        "time": 2.0,
+        "shot": 1,
+        "rule": "subtitle_zone",
+        "detail": "OUT"
+      }
+    ]
+  },
+  {
+    "name": "subtitle_wrong_zone",
+    "expected": "subtitle_zone",
+    "caught": [
+      "subtitle_art",
+      "subtitle_zone"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/subtitle_wrong_zone.png",
+    "issues": [
+      {
+        "frame": 60,
+        "time": 2.0,
+        "shot": 1,
+        "rule": "subtitle_zone",
+        "detail": "WRONG ZONE"
+      },
+      {
+        "frame": 60,
+        "time": 2.0,
+        "shot": 1,
+        "rule": "subtitle_art",
+        "detail": "WRONG ZONE: 23070 picture pixels in padded box"
+      }
+    ]
+  },
+  {
+    "name": "line_through_subtitle",
+    "expected": "subtitle_art",
+    "caught": [
+      "subtitle_art"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/line_through_subtitle.png",
+    "issues": [
+      {
+        "frame": 60,
+        "time": 2.0,
+        "shot": 1,
+        "rule": "subtitle_art",
+        "detail": "He left Earth from one country.: 2892 picture pixels in padded box"
+      },
+      {
+        "frame": 60,
+        "time": 2.0,
+        "shot": 1,
+        "rule": "subtitle_art",
+        "detail": "picture in reserved top zone"
+      }
+    ]
+  },
+  {
+    "name": "line_only_in_8px_padding",
+    "expected": "subtitle_art",
+    "caught": [
+      "subtitle_art"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/line_only_in_8px_padding.png",
+    "issues": [
+      {
+        "frame": 60,
+        "time": 2.0,
+        "shot": 1,
+        "rule": "subtitle_art",
+        "detail": "He left Earth from one country.: 117 picture pixels in padded box"
+      },
+      {
+        "frame": 60,
+        "time": 2.0,
+        "shot": 1,
+        "rule": "subtitle_art",
+        "detail": "picture in reserved top zone"
+      }
+    ]
+  },
+  {
+    "name": "wrong_prop_scale",
+    "expected": "scale",
+    "caught": [
+      "scale"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/wrong_prop_scale.png",
+    "issues": [
+      {
+        "frame": 150,
+        "time": 5.0,
+        "shot": 2,
+        "rule": "scale",
+        "detail": "window"
+      }
+    ]
+  },
+  {
+    "name": "downward_free_prop",
+    "expected": "zero_g_accel",
+    "caught": [
+      "zero_g_accel"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/downward_free_prop.png",
+    "issues": [
+      {
+        "frame": 150,
+        "time": 5.0,
+        "shot": 2,
+        "rule": "zero_g_accel",
+        "detail": "free prop"
+      }
+    ]
+  },
+  {
+    "name": "floating_earth_foot_fixture",
+    "expected": "earth_contact",
+    "caught": [
+      "earth_contact"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/floating_earth_foot_fixture.png",
+    "issues": [
+      {
+        "frame": 150,
+        "time": 5.0,
+        "shot": 2,
+        "rule": "earth_contact",
+        "detail": "{'foot_y': 945, 'ground_y': 950}"
+      }
+    ]
+  },
+  {
+    "name": "overlapping_map_pieces",
+    "expected": "map_overlap",
+    "caught": [
+      "map_overlap"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/overlapping_map_pieces.png",
+    "issues": [
+      {
+        "frame": 90,
+        "time": 3.0,
+        "shot": 1,
+        "rule": "map_overlap",
+        "detail": "pieces 5,4: 59.39697 px2"
+      },
+      {
+        "frame": 90,
+        "time": 3.0,
+        "shot": 1,
+        "rule": "map_overlap",
+        "detail": "pieces 6,4: 45.45795 px2"
+      }
+    ]
+  },
+  {
+    "name": "wrong_calendar_day",
+    "expected": "date",
+    "caught": [
+      "date"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/wrong_calendar_day.png",
+    "issues": [
+      {
+        "frame": 270,
+        "time": 9.0,
+        "shot": 3,
+        "rule": "date",
+        "detail": "{'day': 9, 'date': '1991-05-18'}"
+      }
+    ]
+  },
+  {
+    "name": "counter_backwards",
+    "expected": "counter_backwards",
+    "caught": [
+      "counter_backwards",
+      "date"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/counter_backwards.png",
+    "issues": [
+      {
+        "frame": 270,
+        "time": 9.0,
+        "shot": 3,
+        "rule": "date",
+        "detail": "{'day': 0, 'date': '1991-05-18'}"
+      },
+      {
+        "frame": 270,
+        "time": 9.0,
+        "shot": 3,
+        "rule": "counter_backwards",
+        "detail": "{'day': 0, 'date': '1991-05-18'}"
+      }
+    ]
+  },
+  {
+    "name": "invisible_Mir",
+    "expected": "mir_size",
+    "caught": [
+      "mir_size"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/invisible_Mir.png",
+    "issues": [
+      {
+        "frame": 60,
+        "time": 2.0,
+        "shot": 1,
+        "rule": "mir_size",
+        "detail": "27.299999999999997"
+      }
+    ]
+  },
+  {
+    "name": "premature_internal_borders",
+    "expected": "map_reveal",
+    "caught": [
+      "map_reveal"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/premature_internal_borders.png",
+    "issues": [
+      {
+        "frame": 60,
+        "time": 2.0,
+        "shot": 1,
+        "rule": "map_reveal",
+        "detail": "rendered red pixels on internal seam before 2.5s"
+      },
+      {
+        "frame": 60,
+        "time": 2.0,
+        "shot": 1,
+        "rule": "map_reveal",
+        "detail": "internal borders before 2.5s"
+      }
+    ]
+  },
+  {
+    "name": "fourteen_republics",
+    "expected": "map_count",
+    "caught": [
+      "map_count"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/fourteen_republics.png",
+    "issues": [
+      {
+        "frame": 90,
+        "time": 3.0,
+        "shot": 1,
+        "rule": "map_count",
+        "detail": "14"
+      }
+    ]
+  },
+  {
+    "name": "piece_moves_over_12px",
+    "expected": "map_displacement",
+    "caught": [
+      "map_displacement",
+      "map_overlap"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/piece_moves_over_12px.png",
+    "issues": [
+      {
+        "frame": 90,
+        "time": 3.0,
+        "shot": 1,
+        "rule": "map_displacement",
+        "detail": "20.0"
+      },
+      {
+        "frame": 90,
+        "time": 3.0,
+        "shot": 1,
+        "rule": "map_overlap",
+        "detail": "pieces 1,0: 784.57056 px2"
+      },
+      {
+        "frame": 90,
+        "time": 3.0,
+        "shot": 1,
+        "rule": "map_overlap",
+        "detail": "pieces 2,1: 386.61714 px2"
+      }
+    ]
+  },
+  {
+    "name": "standing_pose_in_zero_g",
+    "expected": "neutral_pose",
+    "caught": [
+      "neutral_pose"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/standing_pose_in_zero_g.png",
+    "issues": [
+      {
+        "frame": 150,
+        "time": 5.0,
+        "shot": 2,
+        "rule": "neutral_pose",
+        "detail": "hips/knees/free arm"
+      },
+      {
+        "frame": 150,
+        "time": 5.0,
+        "shot": 2,
+        "rule": "neutral_pose",
+        "detail": "drawn joints hip=0.00,knee=0.00"
+      },
+      {
+        "frame": 150,
+        "time": 5.0,
+        "shot": 2,
+        "rule": "neutral_pose",
+        "detail": "drawn joints hip=0.00,knee=0.00"
+      }
+    ]
+  },
+  {
+    "name": "detached_rail_hand",
+    "expected": "rail_contact",
+    "caught": [
+      "rail_contact"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/detached_rail_hand.png",
+    "issues": [
+      {
+        "frame": 150,
+        "time": 5.0,
+        "shot": 2,
+        "rule": "rail_contact",
+        "detail": "hand detached"
+      }
+    ]
+  },
+  {
+    "name": "rail_without_brackets",
+    "expected": "rail_brackets",
+    "caught": [
+      "rail_brackets"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/rail_without_brackets.png",
+    "issues": [
+      {
+        "frame": 150,
+        "time": 5.0,
+        "shot": 2,
+        "rule": "rail_brackets",
+        "detail": "needs two fixed wall brackets"
+      }
+    ]
+  },
+  {
+    "name": "too_fast_free_prop",
+    "expected": "zero_g_speed",
+    "caught": [
+      "zero_g_speed"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/too_fast_free_prop.png",
+    "issues": [
+      {
+        "frame": 150,
+        "time": 5.0,
+        "shot": 2,
+        "rule": "zero_g_speed",
+        "detail": "free prop"
+      }
+    ]
+  },
+  {
+    "name": "too_fast_rotation",
+    "expected": "zero_g_rotation",
+    "caught": [
+      "zero_g_rotation"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/too_fast_rotation.png",
+    "issues": [
+      {
+        "frame": 150,
+        "time": 5.0,
+        "shot": 2,
+        "rule": "zero_g_rotation",
+        "detail": "free prop"
+      }
+    ]
+  },
+  {
+    "name": "red_exhaust",
+    "expected": "flame_palette",
+    "caught": [
+      "flame_palette"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/red_exhaust.png",
+    "issues": [
+      {
+        "frame": 360,
+        "time": 12.0,
+        "shot": 4,
+        "rule": "flame_palette",
+        "detail": "{'core': '#ff4646', 'outer': '#d71927'}"
+      }
+    ]
+  },
+  {
+    "name": "one_second_repeat",
+    "expected": "identical_n_minus_30",
+    "caught": [
+      "freeze_gt_1s",
+      "identical_n_minus_30"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/freeze-2s.mp4",
+    "issues": [
+      {
+        "frame": 30,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 31,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 32,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 33,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 34,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 35,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 36,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 37,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 38,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 39,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 40,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 41,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 42,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 43,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 44,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 45,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 46,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 47,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 48,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 49,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 50,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 51,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 52,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 53,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 54,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 55,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 56,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 57,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 58,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 59,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 60,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 61,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 62,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 63,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 64,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 65,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 31,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 32,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 33,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 34,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 35,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 36,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 37,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 38,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 39,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 40,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 41,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 42,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 43,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 44,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 45,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 46,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 47,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 48,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 49,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 50,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 51,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 52,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 53,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 54,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 55,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 56,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 57,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 58,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 59,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 60,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 61,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 62,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 63,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 64,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 65,
+        "rule": "freeze_gt_1s"
+      }
+    ]
+  },
+  {
+    "name": "freeze_over_one_second",
+    "expected": "freeze_gt_1s",
+    "caught": [
+      "freeze_gt_1s",
+      "identical_n_minus_30"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/freeze-2s.mp4",
+    "issues": [
+      {
+        "frame": 30,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 31,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 32,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 33,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 34,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 35,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 36,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 37,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 38,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 39,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 40,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 41,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 42,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 43,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 44,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 45,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 46,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 47,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 48,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 49,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 50,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 51,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 52,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 53,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 54,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 55,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 56,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 57,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 58,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 59,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 60,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 61,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 62,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 63,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 64,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 65,
+        "rule": "identical_n_minus_30"
+      },
+      {
+        "frame": 31,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 32,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 33,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 34,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 35,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 36,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 37,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 38,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 39,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 40,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 41,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 42,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 43,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 44,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 45,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 46,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 47,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 48,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 49,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 50,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 51,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 52,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 53,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 54,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 55,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 56,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 57,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 58,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 59,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 60,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 61,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 62,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 63,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 64,
+        "rule": "freeze_gt_1s"
+      },
+      {
+        "frame": 65,
+        "rule": "freeze_gt_1s"
+      }
+    ]
+  },
+  {
+    "name": "ffmpeg_freeze_detector",
+    "expected": "freezedetect",
+    "caught": [
+      "freezedetect"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/freeze-2s.mp4",
+    "issues": [
+      {
+        "rule": "freezedetect",
+        "detail": "unexpected interval; see raw log"
+      }
+    ]
+  },
+  {
+    "name": "quiet_first_second",
+    "expected": "audio_window_floor",
+    "caught": [
+      "audio_window_floor"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/quiet-first-second.wav",
+    "issues": [
+      {
+        "rule": "audio_window_floor",
+        "start": 0.0,
+        "end": 1.0,
+        "LUFS": -Infinity,
+        "allowed": false
+      }
+    ]
+  },
+  {
+    "name": "ffmpeg_silence_detector",
+    "expected": "silencedetect",
+    "caught": [
+      "silencedetect"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/unplanned-two-second-silence.wav",
+    "issues": [
+      {
+        "rule": "silencedetect",
+        "detail": "unexpected interval; see raw log"
+      }
+    ]
+  },
+  {
+    "name": "ffmpeg_black_detector",
+    "expected": "blackdetect",
+    "caught": [
+      "blackdetect"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/black-first-1.2s.mp4",
+    "issues": [
+      {
+        "rule": "blackdetect",
+        "detail": "unexpected interval; see raw log"
+      }
+    ]
+  },
+  {
+    "name": "low_video_bitrate",
+    "expected": "bitrate_floor",
+    "caught": [
+      "bitrate_floor"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/low-bitrate.mp4",
+    "issues": [
+      {
+        "rule": "bitrate_floor",
+        "value": "124976"
+      }
+    ]
+  },
+  {
+    "name": "wrong_resolution",
+    "expected": "resolution",
+    "caught": [
+      "bitrate_floor",
+      "resolution"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/wrong_resolution.mp4",
+    "issues": [
+      {
+        "rule": "resolution"
+      },
+      {
+        "rule": "bitrate_floor",
+        "value": "444488"
+      }
+    ]
+  },
+  {
+    "name": "wrong_fps",
+    "expected": "frame_rate",
+    "caught": [
+      "bitrate_floor",
+      "frame_rate"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/wrong_fps.mp4",
+    "issues": [
+      {
+        "rule": "frame_rate"
+      },
+      {
+        "rule": "bitrate_floor",
+        "value": "723112"
+      }
+    ]
+  },
+  {
+    "name": "missing_audio",
+    "expected": "audio_present",
+    "caught": [
+      "audio_present"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/missing_audio.mp4",
+    "issues": [
+      {
+        "rule": "audio_present"
+      }
+    ]
+  },
+  {
+    "name": "audio_video_length_mismatch",
+    "expected": "duration_match",
+    "caught": [
+      "duration_match"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/audio_video_length_mismatch.mp4",
+    "issues": [
+      {
+        "rule": "duration_match"
+      }
+    ]
+  },
+  {
+    "name": "wrong_integrated_level",
+    "expected": "integrated_loudness",
+    "caught": [
+      "integrated_loudness"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/wrong_integrated_level.wav",
+    "issues": [
+      {
+        "rule": "integrated_loudness",
+        "value": -19.01
+      }
+    ]
+  },
+  {
+    "name": "true_peak_over_limit",
+    "expected": "true_peak",
+    "caught": [
+      "integrated_loudness",
+      "true_peak"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/true_peak_over_limit.wav",
+    "issues": [
+      {
+        "rule": "integrated_loudness",
+        "value": -8.01
+      },
+      {
+        "rule": "true_peak",
+        "value": 2.71
+      }
+    ]
+  },
+  {
+    "name": "excessive_loudness_range",
+    "expected": "loudness_range",
+    "caught": [
+      "loudness_range"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/excessive_loudness_range.mp4",
+    "issues": [
+      {
+        "rule": "loudness_range",
+        "value": 23.4
+      }
+    ]
+  },
+  {
+    "name": "subtitle_too_short",
+    "expected": "subtitle_read_time",
+    "caught": [
+      "subtitle_read_time"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/short-caption-at-1.5s.png plus 120 rendered frame records",
+    "issues": [
+      {
+        "rule": "subtitle_read_time",
+        "text": "He left Earth from one country.",
+        "readable": 0.633,
+        "required": 3.3
+      }
+    ]
+  },
+  {
+    "name": "sound_five_frames_late",
+    "expected": "sfx_sync",
+    "caught": [
+      "sfx_sync"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/crack-five-frames-late.wav",
+    "issues": [
+      {
+        "rule": "sfx_sync",
+        "cue": "map fracture"
+      }
+    ]
+  },
+  {
+    "name": "launch_too_long",
+    "expected": "launch_duration",
+    "caught": [
+      "launch_duration"
+    ],
+    "pass": true,
+    "evidence": "./preview-v2/qa/mutations/launch-fifteen-seconds.mp4",
+    "issues": [
+      {
+        "rule": "launch_duration",
+        "value": 15.0
+      }
+    ]
+  }
+]

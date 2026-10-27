@@ -1,0 +1,19 @@
+COMMAND: python sample_loudness_qa.py
+{
+  "delivered": {
+    "method": "BS.1770 K-weighted, ungated 1-second power, every sample start",
+    "window_count": 1056001,
+    "minimum_LUFS": -14.740664178418172,
+    "minimum_start_seconds": 10.0668125,
+    "below_minus24_count": 0
+  },
+  "quiet_mutation": {
+    "method": "BS.1770 K-weighted, ungated 1-second power, every sample start",
+    "window_count": 1056001,
+    "minimum_LUFS": -75.09512413032077,
+    "minimum_start_seconds": 0.0,
+    "below_minus24_count": 5234
+  }
+}
+Every-sample floor mutation: PASS
+QA issues: 0

@@ -1,0 +1,258 @@
+{
+  "allowed": [
+    {
+      "start": 86.0,
+      "end": 87.0,
+      "LUFS": -Infinity,
+      "allowed": true
+    },
+    {
+      "start": 86.1,
+      "end": 87.1,
+      "LUFS": -20.296,
+      "allowed": false
+    },
+    {
+      "start": 86.2,
+      "end": 87.2,
+      "LUFS": -18.564,
+      "allowed": false
+    },
+    {
+      "start": 86.3,
+      "end": 87.3,
+      "LUFS": -17.28,
+      "allowed": false
+    },
+    {
+      "start": 86.4,
+      "end": 87.4,
+      "LUFS": -16.307,
+      "allowed": false
+    },
+    {
+      "start": 86.5,
+      "end": 87.5,
+      "LUFS": -15.825,
+      "allowed": false
+    },
+    {
+      "start": 86.6,
+      "end": 87.6,
+      "LUFS": -15.509,
+      "allowed": false
+    },
+    {
+      "start": 86.7,
+      "end": 87.7,
+      "LUFS": -15.304,
+      "allowed": false
+    },
+    {
+      "start": 86.8,
+      "end": 87.8,
+      "LUFS": -14.74,
+      "allowed": false
+    },
+    {
+      "start": 86.9,
+      "end": 87.9,
+      "LUFS": -14.396,
+      "allowed": false
+    },
+    {
+      "start": 87.0,
+      "end": 88.0,
+      "LUFS": -14.245,
+      "allowed": false
+    },
+    {
+      "start": 87.1,
+      "end": 88.1,
+      "LUFS": -14.284,
+      "allowed": false
+    },
+    {
+      "start": 87.2,
+      "end": 88.2,
+      "LUFS": -14.305,
+      "allowed": false
+    },
+    {
+      "start": 87.3,
+      "end": 88.3,
+      "LUFS": -14.355,
+      "allowed": false
+    },
+    {
+      "start": 87.4,
+      "end": 88.4,
+      "LUFS": -14.399,
+      "allowed": false
+    },
+    {
+      "start": 87.5,
+      "end": 88.5,
+      "LUFS": -14.421,
+      "allowed": false
+    },
+    {
+      "start": 87.6,
+      "end": 88.6,
+      "LUFS": -14.399,
+      "allowed": false
+    },
+    {
+      "start": 87.7,
+      "end": 88.7,
+      "LUFS": -14.36,
+      "allowed": false
+    },
+    {
+      "start": 87.8,
+      "end": 88.8,
+      "LUFS": -14.299,
+      "allowed": false
+    },
+    {
+      "start": 87.9,
+      "end": 88.9,
+      "LUFS": -14.257,
+      "allowed": false
+    },
+    {
+      "start": 88.0,
+      "end": 89.0,
+      "LUFS": -14.278,
+      "allowed": false
+    }
+  ],
+  "unrelated": [
+    {
+      "start": 10.0,
+      "end": 11.0,
+      "LUFS": -Infinity,
+      "allowed": false
+    },
+    {
+      "start": 10.1,
+      "end": 11.1,
+      "LUFS": -20.296,
+      "allowed": false
+    },
+    {
+      "start": 10.2,
+      "end": 11.2,
+      "LUFS": -18.564,
+      "allowed": false
+    },
+    {
+      "start": 10.3,
+      "end": 11.3,
+      "LUFS": -17.28,
+      "allowed": false
+    },
+    {
+      "start": 10.4,
+      "end": 11.4,
+      "LUFS": -16.307,
+      "allowed": false
+    },
+    {
+      "start": 10.5,
+      "end": 11.5,
+      "LUFS": -15.825,
+      "allowed": false
+    },
+    {
+      "start": 10.6,
+      "end": 11.6,
+      "LUFS": -15.509,
+      "allowed": false
+    },
+    {
+      "start": 10.7,
+      "end": 11.7,
+      "LUFS": -15.304,
+      "allowed": false
+    },
+    {
+      "start": 10.8,
+      "end": 11.8,
+      "LUFS": -14.74,
+      "allowed": false
+    },
+    {
+      "start": 10.9,
+      "end": 11.9,
+      "LUFS": -14.396,
+      "allowed": false
+    },
+    {
+      "start": 11.0,
+      "end": 12.0,
+      "LUFS": -14.245,
+      "allowed": false
+    },
+    {
+      "start": 11.1,
+      "end": 12.1,
+      "LUFS": -14.284,
+      "allowed": false
+    },
+    {
+      "start": 11.2,
+      "end": 12.2,
+      "LUFS": -14.305,
+      "allowed": false
+    },
+    {
+      "start": 11.3,
+      "end": 12.3,
+      "LUFS": -14.355,
+      "allowed": false
+    },
+    {
+      "start": 11.4,
+      "end": 12.4,
+      "LUFS": -14.399,
+      "allowed": false
+    },
+    {
+      "start": 11.5,
+      "end": 12.5,
+      "LUFS": -14.421,
+      "allowed": false
+    },
+    {
+      "start": 11.6,
+      "end": 12.6,
+      "LUFS": -14.399,
+      "allowed": false
+    },
+    {
+      "start": 11.7,
+      "end": 12.7,
+      "LUFS": -14.36,
+      "allowed": false
+    },
+    {
+      "start": 11.8,
+      "end": 12.8,
+      "LUFS": -14.299,
+      "allowed": false
+    },
+    {
+      "start": 11.9,
+      "end": 12.9,
+      "LUFS": -14.257,
+      "allowed": false
+    },
+    {
+      "start": 12.0,
+      "end": 13.0,
+      "LUFS": -14.278,
+      "allowed": false
+    }
+  ]
+}

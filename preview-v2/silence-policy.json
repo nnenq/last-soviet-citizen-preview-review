@@ -1,0 +1,10 @@
+{
+  "preview_allowed_intervals": [],
+  "full_film_planned_interval": {
+    "start": 86.0,
+    "end": 87.0,
+    "duration": 1.0,
+    "label": "USSR-collapse intentional silence",
+    "status": "reserved; full timeline must keep this explicit interval"
+  }
+}

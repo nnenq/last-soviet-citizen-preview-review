@@ -1,0 +1,115 @@
+{
+  "frame": 360,
+  "time": 12.0,
+  "shot": 4,
+  "bounds": [
+    {
+      "role": "prop",
+      "name": "rocket",
+      "box": [
+        830.0,
+        -430.0,
+        1090.0,
+        570.0
+      ],
+      "scale": "R",
+      "height_px": 500
+    },
+    {
+      "role": "text",
+      "name": "DAY",
+      "box": [
+        64.0,
+        74.0,
+        136.0,
+        104.0
+      ],
+      "text_role": "counter",
+      "opacity": 1,
+      "font_size": 40
+    },
+    {
+      "role": "text",
+      "name": "1",
+      "box": [
+        153.0,
+        60.0,
+        189.0,
+        104.0
+      ],
+      "text_role": "counter",
+      "opacity": 1,
+      "font_size": 60
+    },
+    {
+      "role": "text",
+      "name": "18 MAY 1991",
+      "box": [
+        64.0,
+        134.0,
+        328.0,
+        165.0
+      ],
+      "text_role": "date",
+      "opacity": 1,
+      "font_size": 40
+    },
+    {
+      "role": "text",
+      "name": "May 1991. Sergei Krikalev flies",
+      "box": [
+        538.0,
+        41.0,
+        1382.0,
+        99.0
+      ],
+      "text_role": "caption",
+      "opacity": 1,
+      "font_size": 56,
+      "art_pixels_padded": 0
+    },
+    {
+      "role": "text",
+      "name": "to the space station Mir.",
+      "box": [
+        626.5,
+        107.0,
+        1293.5,
+        165.0
+      ],
+      "text_role": "caption",
+      "opacity": 1,
+      "font_size": 56,
+      "art_pixels_padded": 0
+    }
+  ],
+  "scales": [
+    {
+      "name": "rocket",
+      "value": 500,
+      "expected": 500
+    }
+  ],
+  "reserved_zone_art_pixels": 0,
+  "caption_id": 2,
+  "premature_internal_red_pixels": 0,
+  "flame": {
+    "core": "#ff4646",
+    "outer": "#d71927"
+  },
+  "smoke": {
+    "alpha": 0.6,
+    "colors": [
+      "#8a8a90",
+      "#d0d0d4"
+    ]
+  },
+  "launch": {
+    "phase": "engine",
+    "total_seconds": 8
+  },
+  "day": {
+    "day": 1,
+    "date": "1991-05-18"
+  }
+}

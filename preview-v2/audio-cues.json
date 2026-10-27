@@ -1,0 +1,50 @@
+[
+  {
+    "name": "map fracture",
+    "time": 2.5,
+    "visual_frame": 75,
+    "sound_frame": 75,
+    "offset_frames": 0,
+    "template": "./preview-v2/event-templates/map-fracture.wav"
+  },
+  {
+    "name": "countdown 3",
+    "time": 8,
+    "visual_frame": 240,
+    "sound_frame": 240,
+    "offset_frames": 0,
+    "template": "./preview-v2/event-templates/countdown-3.wav"
+  },
+  {
+    "name": "countdown 2",
+    "time": 9,
+    "visual_frame": 270,
+    "sound_frame": 270,
+    "offset_frames": 0,
+    "template": "./preview-v2/event-templates/countdown-2.wav"
+  },
+  {
+    "name": "countdown 1",
+    "time": 10,
+    "visual_frame": 300,
+    "sound_frame": 300,
+    "offset_frames": 0,
+    "template": "./preview-v2/event-templates/countdown-1.wav"
+  },
+  {
+    "name": "launch release",
+    "time": 13.5,
+    "visual_frame": 405,
+    "sound_frame": 405,
+    "offset_frames": 0,
+    "template": "./preview-v2/event-templates/launch-release.wav"
+  },
+  {
+    "name": "engine ignition",
+    "time": 11,
+    "visual_frame": 330,
+    "sound_frame": 330,
+    "offset_frames": 0,
+    "template": "./preview-v2/event-templates/ignition.wav"
+  }
+]

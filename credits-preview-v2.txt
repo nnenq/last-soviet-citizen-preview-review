@@ -1,0 +1,20 @@
+THE LAST SOVIET CITIZEN — revised 23-second preview
+
+All final frames drawn programmatically in Cairo. No AI-generated images or video. Original Almost Okay hero face and hair retained from the channel's own vector rig; light-grey flight suit for this topic. No voiceover.
+
+Historical map source: United States Central Intelligence Agency, Republics of the Soviet Union, 1991; printed identifier801727 (B01272)7-91. Library of Congress, Geography and Map Division, digital ID g7001f.ct001610 / record2005626536.
+https://www.loc.gov/item/2005626536/
+Source scan mirrored at:
+https://commons.wikimedia.org/wiki/File:Republics_of_the_Soviet_Union._LOC_2005626536.jpg
+The original raster and colour-region vectorization diagnostics are kept in assets/. The map is simplified at approximately half a source pixel and composed on a stylized globe. It is an illustration derived from the July1991 map, not a modern-country layer or a survey/legal boundary dataset. Fine enclaves and features below the source scan's resolution cannot be certified.
+LOC rights statement: collection content is free to use and reuse unless otherwise noted. Map authored by the US Central Intelligence Agency. The original agency map's boundary caveat remains part of the retained reference.
+
+Posture reference: NASA, Quantification of In-Flight Physical Changes: Anthropometry and Neutral Body Posture, NTRS20150020939:
+https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20150020939.pdf
+Raised arms, hip/knee flexion and relaxed posture adapted to the supplied simple rig and the user's requested angles. These are animation targets, not a claim that every astronaut holds one exact pose.
+
+Original procedural audio: mid-band editorial atmosphere, cabin ventilation, electronic countdown, fracture transient, release transient and rocket roar. No sampled recordings or music are used in this preview. Render script creates WAV plus event templates and cue list. Matched correlation checks event placement in encoded audio. No perceptual audio audition by the model is claimed.
+
+Fonts: Andika Bold, SIL International, OFL1.1; JetBrains Mono, JetBrains Mono Project Authors, OFL1.1. Full original licenses are in assets/Andika-OFL.txt and assets/JetBrainsMono-OFL.txt.
+
+Historical events used in the preview are restricted to the user's fact table: May18,1991 launch, planned five-month Mir mission, and return after the USSR ceased to exist. The map fracture is a prologue/editorial metaphor, not a literal physical event. No fabricated archival quotation.

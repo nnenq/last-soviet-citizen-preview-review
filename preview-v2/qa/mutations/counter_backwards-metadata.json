@@ -1,0 +1,117 @@
+{
+  "frame": 270,
+  "time": 9.0,
+  "shot": 3,
+  "bounds": [
+    {
+      "role": "prop",
+      "name": "rocket",
+      "box": [
+        894.2,
+        400.0,
+        1024.2,
+        900.0
+      ],
+      "scale": "R",
+      "height_px": 500
+    },
+    {
+      "role": "text",
+      "name": "DAY",
+      "box": [
+        64.0,
+        74.0,
+        136.0,
+        104.0
+      ],
+      "text_role": "counter",
+      "opacity": 1,
+      "font_size": 40
+    },
+    {
+      "role": "text",
+      "name": "0",
+      "box": [
+        153.0,
+        59.0,
+        189.0,
+        105.0
+      ],
+      "text_role": "counter",
+      "opacity": 1,
+      "font_size": 60
+    },
+    {
+      "role": "text",
+      "name": "18 MAY 1991",
+      "box": [
+        64.0,
+        134.0,
+        328.0,
+        165.0
+      ],
+      "text_role": "date",
+      "opacity": 1,
+      "font_size": 40
+    },
+    {
+      "role": "text",
+      "name": "May 1991. Sergei Krikalev flies",
+      "box": [
+        538.0,
+        41.0,
+        1382.0,
+        99.0
+      ],
+      "text_role": "caption",
+      "opacity": 1,
+      "font_size": 56,
+      "art_pixels_padded": 0
+    },
+    {
+      "role": "text",
+      "name": "to the space station Mir.",
+      "box": [
+        626.5,
+        107.0,
+        1293.5,
+        165.0
+      ],
+      "text_role": "caption",
+      "opacity": 1,
+      "font_size": 56,
+      "art_pixels_padded": 0
+    },
+    {
+      "role": "text",
+      "name": "2",
+      "box": [
+        1181.0,
+        522.0,
+        1239.0,
+        594.0
+      ],
+      "text_role": "countdown",
+      "opacity": 1,
+      "font_size": 96
+    }
+  ],
+  "scales": [
+    {
+      "name": "rocket",
+      "value": 500,
+      "expected": 500
+    }
+  ],
+  "reserved_zone_art_pixels": 0,
+  "caption_id": 2,
+  "premature_internal_red_pixels": 0,
+  "launch": {
+    "phase": "wide",
+    "total_seconds": 8
+  },
+  "day": {
+    "day": 0,
+    "date": "1991-05-18"
+  }
+}

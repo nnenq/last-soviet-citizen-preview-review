@@ -1,0 +1,43 @@
+{
+  "frame": 60,
+  "time": 2.0,
+  "shot": 1,
+  "bounds": [
+    {
+      "role": "prop",
+      "name": "Mir",
+      "box": [
+        1281.9991922177642,
+        311.59258636644233,
+        1310.0008077822358,
+        326.3997384883047
+      ],
+      "scale": "O",
+      "minimum_width": 60
+    },
+    {
+      "role": "text",
+      "name": "He left Earth from one country.",
+      "box": [
+        537.5,
+        107.0,
+        1382.5,
+        165.0
+      ],
+      "text_role": "caption",
+      "opacity": 1,
+      "font_size": 56,
+      "art_pixels_padded": 0
+    }
+  ],
+  "scales": [],
+  "reserved_zone_art_pixels": 0,
+  "caption_id": 0,
+  "premature_internal_red_pixels": 0,
+  "map": {
+    "internal": false,
+    "piece_count": 1,
+    "max_displacement": 0
+  },
+  "mir_width": 27.299999999999997
+}

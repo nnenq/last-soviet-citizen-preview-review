@@ -1,0 +1,17 @@
+[aist#0:0/pcm_s16le @ 000001bbb9b71b40] Guessed Channel Layout: stereo
+Input #0, wav, from '.\preview-v2\qa\mutations\unplanned-two-second-silence.wav':
+  Duration: 00:00:23.00, bitrate: 1536 kb/s
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'NUL':
+  Metadata:
+    encoder         : Lavf63.1.101
+  Stream #0:0: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s
+    Metadata:
+      encoder         : Lavc63.1.101 pcm_s16le
+[Parsed_silencedetect_0 @ 000001bbbb534040] silence_start: 0
+[Parsed_silencedetect_0 @ 000001bbbb534040] silence_end: 2 | silence_duration: 2
+[out#0/null @ 000001bbb9af35c0] video:0KiB audio:4312KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:23.00 bitrate=N/A speed= 602x elapsed=0:00:00.03    
